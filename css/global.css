@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --gray: #7f7f7f;
+  --black: #000000;
+  --light-gray: #e8e5e480;
+}
+
+body {
+  font-family: "PP Neue Montreal", sans-serif;
+  height: 1000px;
+  
+}
+
+h1 {
+  font-weight: 500;
+}
+
+ul,
+li {
+  font-weight: 500;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+}
