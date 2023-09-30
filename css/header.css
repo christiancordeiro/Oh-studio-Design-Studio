@@ -3,17 +3,19 @@
   width: 100%;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 .nav ul {
   display: flex;
   font-size: 14px;
   gap: 2px;
-  width: 290px;
+  width: 280px;
   margin: 24px auto;
   background-color: var(--light-gray);
-  padding: 2px;
+  padding: 4px;
   border-radius: 100px;
+  backdrop-filter: blur(16px);
 }
 
 .nav li {
