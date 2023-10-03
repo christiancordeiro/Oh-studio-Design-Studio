@@ -1,3 +1,7 @@
+.container {
+  padding: 0px 20px;
+}
+
 .initial-text {
   padding-top: 260px;
   text-align: center;
@@ -8,7 +12,6 @@
 
 .tags {
   padding-top: 40px;
-
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -29,7 +32,7 @@
 
 .show {
   opacity: 1;
-  transform: translate3d(0, -80px, 0);
+  transform: translate3d(0, -100px, 0);
   transition: all 2s;
 }
 

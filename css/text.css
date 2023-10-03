@@ -1,0 +1,17 @@
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 180px 0px 0px;
+  font-size: 20px;
+}
+
+.get {
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.get:hover {
+  color: #a9a9a9;
+}

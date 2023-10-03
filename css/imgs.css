@@ -1,11 +1,12 @@
 .container-img {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0px 20px;
 }
 
 .imgs-container {
+  flex-basis: calc(50% - 20px);
   position: relative;
 }
 
@@ -21,14 +22,26 @@
   position: relative;
 }
 
+video,
 img {
   width: 100%;
-  transition: 0.1s ease;
+  height: 100%;
+  transition: 0.3s ease;
   display: block;
   position: relative;
 }
 
-img:hover {
+video {
+  width: 125%;
+  height: auto;
+}
+
+.video-roxo {
+  width: 107%;
+}
+
+img:hover,
+video:hover {
   filter: blur(8px) brightness(0.8);
 }
 
@@ -43,6 +56,7 @@ img:hover {
   width: 90%;
   z-index: 1;
   opacity: 0;
+  transition: 0.3s ease;
 }
 
 .details p {
