@@ -1,0 +1,21 @@
+#imgs-profile {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+#imgs-profile > img:hover {
+  filter: none;
+}
+
+#imgs-profile .img-2 {
+  width: 155%;
+}
+
+#imgs-profile .imgs a {
+  display: flex;
+  justify-content: center;
+}
+
+#imgs-profile .imgs a {
+  pointer-events: none;
+}

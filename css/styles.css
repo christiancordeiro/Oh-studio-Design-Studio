@@ -1,6 +1,11 @@
 @import url("global.css");
-@import url("header.css");
-@import url("initial-text.css");
-@import url("imgs.css");
-@import url("text.css");
-@import url("footer.css");
+
+/* index.html */
+@import url("./index/header.css");
+@import url("./index/initial-text.css");
+@import url("./index/imgs.css");
+@import url("./index/text.css");
+@import url("index/footer.css");
+
+/* profile.html */
+@import url("./profile/profile-imgs.css");
