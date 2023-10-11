@@ -50,15 +50,4 @@
     flex-direction: column;
     justify-content: initial;
   }
-  .copy {
-    order: 1;
-  }
-
-  .shop {
-  
-  }
-
-  .social {
-    order: 2;
-  }
 }
