@@ -7,11 +7,25 @@
   text-align: center;
   font-size: 36px;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 @media (max-width: 1000px) {
+  #profile .about {
+    margin: 0 auto;
+  }
+
+  #profile .tags {
+    display: flex;
+  }
+
   #profile p {
-    font-size: 30px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 800px) {
+  #profile p {
+    font-size: 25px;
   }
 }
