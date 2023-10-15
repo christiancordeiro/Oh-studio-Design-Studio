@@ -16,3 +16,9 @@
 .get:hover {
   color: #a9a9a9;
 }
+
+@media (max-width: 900px) {
+  .text h1 {
+    font-size: 26px;
+  }
+}

@@ -7,15 +7,26 @@
   filter: none;
 }
 
-#imgs-profile .img-2 {
+#profile .img-2 {
   width: 155%;
 }
 
-#imgs-profile .imgs a {
+#profile .imgs a {
   display: flex;
   justify-content: center;
 }
 
-#imgs-profile .imgs a {
+#profile .imgs a {
   pointer-events: none;
+}
+
+@media (max-width: 1000px) {
+  #profile .img-1 {
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  #profile .img2 {
+    display: none;
+  }
 }

@@ -1,0 +1,32 @@
+.clients {
+  margin-top: 100px;
+}
+
+.container-logo img {
+  width: 60%;
+  height: auto;
+}
+
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.container-logo .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.experience h3 {
+  padding-bottom: 70px;
+}
+
+@media (max-width: 900px) {
+  .container-logo img {
+    width: 70%;
+  }
+}

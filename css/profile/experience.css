@@ -1,0 +1,31 @@
+.experience {
+}
+
+.experience h3 {
+  padding-bottom: 70px;
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.container-jobs {
+  align-items: center;
+}
+
+.job {
+  padding-top: 60px;
+}
+
+.experience h2 {
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .experience h2 {
+    font-size: 18px;
+  }
+}
