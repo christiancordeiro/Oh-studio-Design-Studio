@@ -1,5 +1,5 @@
 #profile .about {
-  margin: 140px auto;
+  margin: 190px auto;
   max-width: 700px;
 }
 
@@ -25,6 +25,10 @@
 }
 
 @media (max-width: 800px) {
+  #profile .about {
+    margin: 180px auto;
+  }
+
   #profile p {
     font-size: 25px;
   }

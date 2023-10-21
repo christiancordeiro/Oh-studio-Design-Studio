@@ -12,3 +12,6 @@
 @import url("./profile/about.css");
 @import url("./profile/experience.css");
 @import url("./profile/clients.css");
+
+/* profile.html */
+@import url("./contact/contact.css");

@@ -2,8 +2,8 @@
   padding: 0px 20px;
 }
 
-.initial-text {
-  padding-top: 260px;
+.initial-text { 
+  padding-top: 320px;
   text-align: center;
   font-size: 35px;
   z-index: -1;
@@ -38,8 +38,8 @@
 
 @media (max-width: 800px) {
   .initial-text {
-    padding-top: 380px;
-    font-size: 20px;
+    padding-top: 320px;
+    font-size: 18px;
   }
   .tags {
     display: none;
