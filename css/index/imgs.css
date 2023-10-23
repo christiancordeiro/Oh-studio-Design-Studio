@@ -83,3 +83,18 @@ video:hover {
     flex-direction: column;
   }
 }
+
+@media (max-width: 800px) {
+  #index img:hover,
+  video:hover {
+    filter: none;
+  }
+
+  .details {
+    display: none;
+  }
+
+  .details:hover + a img {
+    filter: none;
+  }
+}
