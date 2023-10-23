@@ -2,7 +2,7 @@
   padding: 0px 20px;
 }
 
-.initial-text { 
+.initial-text {
   padding-top: 320px;
   text-align: center;
   font-size: 35px;
@@ -27,13 +27,13 @@
 
 .hidden {
   opacity: 0;
-  transition: all 2s;
+  transition: all 0s;
 }
 
 .show {
   opacity: 1;
   transform: translate3d(0, -100px, 0);
-  transition: all 2s;
+  transition: all 1s;
 }
 
 @media (max-width: 800px) {
