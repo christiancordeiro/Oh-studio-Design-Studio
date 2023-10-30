@@ -9,12 +9,7 @@
 }
 
 .shop {
-  background-color: var(--black);
-  border-radius: 100px;
   position: fixed;
-  width: 98px;
-  padding: 8px 0px;
-  padding-left: 8px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -23,21 +18,17 @@
   text-align: center;
 }
 
-.shop a {
-  position: relative;
-  color: var(--white);
+.shop img {
+  display: inline-block;
+  width: 18px;
+  margin-bottom: -3px;
 }
 
-.shop a::before {
-  content: "";
-  width: 30%;
-  height: 90%;
-  display: inline-block;
-  left: -85%;
-  position: absolute;
-  background-image: url("../src/img/logo-background-black.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+.shop a {
+  background-color: var(--black);
+  border-radius: 100px;
+  padding: 10px 18px;
+  color: var(--white);
 }
 
 .social {
